@@ -1,0 +1,71 @@
+{
+  "name": "Film",
+  "fields": [
+    {
+      "fieldName": "rating",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "releaseYear",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "length",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "languageId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "filmId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rentalDuration",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rentalRate",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "specialFeatures",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fulltext",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "replacementCost",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "film",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["PostgresMar29"],
+  "microserviceName": "PostgresMar29",
+  "clientRootFolder": "PostgresMar29",
+  "databaseType": "sql",
+  "changelogDate": "20230329051352"
+}
